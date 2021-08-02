@@ -1,0 +1,150 @@
+/* < !-- google roboto font family link added --> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* google fonts babes neueu    */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    width: 100%;
+    background-color:#FFF9F4;
+}
+.icon-brand{
+    width: 26%;
+}
+
+.nav-item-div ul li{ 
+    margin-right: 30px;
+}
+
+.nav-item-div ul li a{
+    color:#fa804c;
+    text-decoration: none;
+ 
+}
+
+section{
+    width:90%;
+    height: 100%;
+    margin: 100px 0 120px 0;
+}
+
+.nav-item-div ul li a::after{
+    content:"";
+    width: 0%;
+    background-color: #fa804c;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-item-div ul li a:hover::after {
+    width: 100%;
+}
+
+
+.top-right h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-family: 'Bebas Neue',cursive;
+    font-size: 70px;
+
+}
+.top-left-img-container{
+    width: 90%;
+}
+.top-left-img-container>img{
+    width: 100%;
+}
+.orange-text{
+    color:#fa804c;
+    font-weight: 700;
+}
+button{
+   background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+   border-radius: 10px;
+   padding: 15px 5px;
+   color: white;
+   border: 0;
+
+}
+button>img{
+    width: 15%;
+    margin-right: 5px;
+}
+
+/* causal card image style  */
+
+.card{
+    border-radius: 30px; 
+    border: 5px solid white;
+
+    filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
+}
+.casual-img-div{
+    background-color: #F1F1F1;
+    border-radius: 30px;
+      border: 0;
+}
+.casual-1{
+    transform: rotate(5.35deg);
+    
+}
+.casual-3{
+    transform: rotate(4.14deg);
+}
+
+/* about us style start  */
+.aboutus-img{
+    width: 18%;
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    justify-content: cen;
+    margin-left: 20px;
+
+}
+.aboutus-img>img{
+    width: 60%
+    
+}
+
+
+
+/* media query of hrader section*/
+@media only screen and (max-width:768px){
+    .top-right h1{
+        font-size:40px ;    
+    }
+    .top-right p{
+        font-size:12px ;    
+    }
+    .top-left-img-container {
+        width: 90%;
+    }
+    .icon-brand {
+        width: 50%;
+    }
+
+    /* media query of about us  */
+
+    .aboutus-img {
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+
+    }
+    .aboutus-img>img {
+        width: 15%
+    }
+    .card-body{
+        text-align: center;
+    }
+}
