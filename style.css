@@ -100,20 +100,16 @@ button>img{
 
 /* about us style start  */
 .aboutus-img{
-    width: 18%;
+    width: 20%;
     margin-top:15px;
     display: flex;
     align-items: center;
-    justify-content: cen;
-    margin-left: 20px;
-
-}
-.aboutus-img>img{
-    width: 60%
+    justify-content: center;
     
 }
-
-
+.aboutus-img>img{
+    width: 60%;    
+}
 
 /* media query of hrader section*/
 @media only screen and (max-width:768px){
@@ -134,15 +130,10 @@ button>img{
 
     .aboutus-img {
         width: 100%;
-        margin-top: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 0px;
-
     }
     .aboutus-img>img {
         width: 15%
+        
     }
     .card-body{
         text-align: center;
